@@ -72,3 +72,4 @@ class PlaylistCard extends StatelessWidget {
     );
   }
 }
+ 
