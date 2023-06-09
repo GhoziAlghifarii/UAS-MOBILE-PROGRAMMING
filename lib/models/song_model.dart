@@ -4,7 +4,7 @@ class Song {
   final String url;
   final String coverUrl;
 
-  Song(
+  Song( 
       {required this.title,
       required this.description,
       required this.url,
