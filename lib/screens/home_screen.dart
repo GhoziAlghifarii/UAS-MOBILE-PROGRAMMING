@@ -94,7 +94,6 @@ class _DiscoverMusic extends StatelessWidget {
   const _DiscoverMusic({
     Key? key,
   }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Padding(
