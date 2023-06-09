@@ -1,0 +1,20 @@
+com.example.musikplayer.app-debug-0 C:\S4\Mobile Programming\musikplayer\android\app\src\debug\res
+com.example.musikplayer.app-main-1 C:\S4\Mobile Programming\musikplayer\android\app\src\main\res
+com.example.musikplayer.app-pngs-2 C:\S4\Mobile Programming\musikplayer\build\app\generated\res\pngs\debug
+com.example.musikplayer.app-resValues-3 C:\S4\Mobile Programming\musikplayer\build\app\generated\res\resValues\debug
+com.example.musikplayer.app-rs-4 C:\S4\Mobile Programming\musikplayer\build\app\generated\res\rs\debug
+com.example.musikplayer.app-mergeDebugResources-5 C:\S4\Mobile Programming\musikplayer\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.musikplayer.app-mergeDebugResources-6 C:\S4\Mobile Programming\musikplayer\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.musikplayer.app-merged_res-7 C:\S4\Mobile Programming\musikplayer\build\app\intermediates\merged_res\debug
+com.example.musikplayer.app-packaged_res-8 C:\S4\Mobile Programming\musikplayer\build\audio_session\intermediates\packaged_res\debug
+com.example.musikplayer.app-packaged_res-9 C:\S4\Mobile Programming\musikplayer\build\just_audio\intermediates\packaged_res\debug
+com.example.musikplayer.app-packaged_res-10 C:\S4\Mobile Programming\musikplayer\build\path_provider_android\intermediates\packaged_res\debug
+com.example.musikplayer.app-jetified-window-java-1.0.0-beta04-11 C:\Users\ASUS\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.musikplayer.app-media-1.4.1-12 C:\Users\ASUS\.gradle\caches\transforms-3\5e776b2036c73d73db0c316ecc027c07\transformed\media-1.4.1\res
+com.example.musikplayer.app-jetified-media2-common-1.2.1-13 C:\Users\ASUS\.gradle\caches\transforms-3\66ccda3ff999fc661ae5ded0b415dac0\transformed\jetified-media2-common-1.2.1\res
+com.example.musikplayer.app-core-1.7.0-14 C:\Users\ASUS\.gradle\caches\transforms-3\74ce2690f7529852b8321388684fcbb6\transformed\core-1.7.0\res
+com.example.musikplayer.app-lifecycle-runtime-2.3.1-15 C:\Users\ASUS\.gradle\caches\transforms-3\76da31ad033c53187dd7271282d0f7d2\transformed\lifecycle-runtime-2.3.1\res
+com.example.musikplayer.app-jetified-annotation-experimental-1.1.0-16 C:\Users\ASUS\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.musikplayer.app-jetified-window-1.0.0-beta04-17 C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.musikplayer.app-jetified-exoplayer-core-2.18.7-18 C:\Users\ASUS\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\res
+com.example.musikplayer.app-jetified-media2-session-1.2.1-19 C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\res

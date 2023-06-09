@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musikplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ASUS\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+11-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ASUS\.gradle\caches\transforms-3\ef2321c8ef384bd7d821c1ecf44a36ab\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+12
+13    <queries>
+13-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
+14        <intent>
+14-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+15            <action android:name="android.media.browse.MediaBrowserService" />
+15-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+15-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+16        </intent>
+17        <intent>
+17-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+18            <action android:name="androidx.media2.session.MediaSessionService" />
+18-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+18-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+19        </intent>
+20        <intent>
+20-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+21            <action android:name="androidx.media2.session.MediaLibraryService" />
+21-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+21-->[androidx.media2:media2-session:1.2.1] C:\Users\ASUS\.gradle\caches\transforms-3\f921d35191e816e13bbe81a1a7adc2e8\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+22        </intent>
+23    </queries>
+24
+25    <application
+26        android:name="android.app.Application"
+26-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:5:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\74ce2690f7529852b8321388684fcbb6\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:6:9-43
+29        android:label="musikplayer" >
+29-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:4:9-36
+30        <activity
+30-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:7:9-27:20
+31            android:name="com.example.musikplayer.MainActivity"
+31-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:8:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:12:13-163
+33            android:exported="true"
+33-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:9:13-36
+34            android:hardwareAccelerated="true"
+34-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:13:13-47
+35            android:launchMode="singleTop"
+35-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:10:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:11:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:14:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:19:13-22:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:20:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:21:15-52
+48
+49            <intent-filter>
+49-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:23:13-26:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:24:17-68
+50-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:24:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:25:17-76
+52-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:25:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:30:9-32:33
+60            android:name="flutterEmbedding"
+60-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:31:13-44
+61            android:value="2" />
+61-->C:\S4\Mobile Programming\musikplayer\android\app\src\main\AndroidManifest.xml:32:13-30
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+69    </application>
+70
+71</manifest>

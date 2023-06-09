@@ -80,7 +80,7 @@ class PlayerButton extends StatelessWidget {
             return IconButton(
               onPressed: audioPlayer.hasNext ? audioPlayer.seekToNext : null,
               icon: const Icon(
-                Icons.skip_previous,
+                Icons.skip_next,
                 color: Colors.white,
               ),
             );

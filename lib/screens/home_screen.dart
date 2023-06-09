@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:musikplayer/models/playlish_models.dart';
+import 'package:musikplayer/screens/profile.dart';
 import '../models/song_model.dart';
 import '../widgets/widgets.dart';
 
@@ -117,6 +118,7 @@ class _DiscoverMusic extends StatelessWidget {
             height: 20,
           ),
           TextFormField(
+            style: const TextStyle(color: Colors.black),
             decoration: InputDecoration(
                 isDense: true,
                 filled: true,
@@ -148,6 +150,10 @@ class _CustomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+        onTap: (value) {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const Profile()));
+        },
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.deepPurple.shade900,
         unselectedItemColor: Colors.white,
@@ -155,13 +161,15 @@ class _CustomNavBar extends StatelessWidget {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home", ),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite_outline), label: "Favorite"),
           BottomNavigationBarItem(
               icon: Icon(Icons.play_circle_outline), label: "Play"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.people_outline), label: "Profile"),
+            icon: Icon(Icons.people_outline),
+            label: "Profile",
+          ),
         ]);
   }
 }
