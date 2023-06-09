@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:musikplayer/models/playlish_models.dart';
 import 'package:musikplayer/screens/profile.dart';
 import '../models/song_model.dart';
-import '../widgets/widgets.dart';
+import '../widgets/widgets.dart'; 
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
