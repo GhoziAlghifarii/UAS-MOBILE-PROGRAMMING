@@ -20,5 +20,13 @@ class Playlist {
         title: 'Untuk Apa',
         songs: Song.songs,
         coverUrl: 'assets/cover/untukapa.jpg'),
+    Playlist(
+        title: 'Chelsea Smile',
+        songs: Song.songs,
+        coverUrl: 'assets/cover/chelseasmile.jpg'),
+    Playlist(
+        title: 'Love Your Self',
+        songs: Song.songs,
+        coverUrl: 'assets/cover/justin.jpeg'),
   ];
 }

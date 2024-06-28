@@ -25,6 +25,16 @@ class Song {
         title: 'Untuk Apa',
         description: 'Hindia',
         url: 'assets/musik/UntukApa.mp3',
-        coverUrl: 'assets/cover/untukapa.jpg')
+        coverUrl: 'assets/cover/untukapa.jpg'),
+    Song(
+        title: 'Chelsea Smile',
+        description: 'BMTH',
+        url: 'assets/musik/ChelseaSmile.mp3',
+        coverUrl: 'assets/cover/chelseasmile.jpg'),
+    Song(
+        title: 'Love Your Self',
+        description: 'Justin Bieber',
+        url: 'assets/musik/LoveYourSelf.mp3',
+        coverUrl: 'assets/cover/justin.jpeg')
   ];
 }

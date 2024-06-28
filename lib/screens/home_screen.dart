@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:musikplayer/models/playlish_models.dart';
 import 'package:musikplayer/screens/profile.dart';
 import '../models/song_model.dart';
-import '../widgets/widgets.dart'; 
+import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Song> songs = Song.songs;
     List<Playlist> playlists = Playlist.playlists;
-    return Container( 
+    return Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(
         begin: Alignment.topCenter,
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: Column(
                   children: [
-                    const SectionHeader(title: 'Playlists'),
+                    const SectionHeader(title: 'Song'),
                     ListView.builder(
                         shrinkWrap: true,
                         padding: const EdgeInsets.only(top: 20),
@@ -70,7 +70,7 @@ class _TrendingMusik extends StatelessWidget {
         children: [
           const Padding(
             padding: EdgeInsets.only(right: 20.0),
-            child: SectionHeader(title: 'Trending Music'),
+            child: SectionHeader(title: 'Library'),
           ),
           const SizedBox(
             height: 20,
@@ -107,10 +107,10 @@ class _DiscoverMusic extends StatelessWidget {
             height: 5,
           ),
           Text(
-            'Enjoyyyy brooow',
+            'Kelompok 9',
             style: Theme.of(context)
                 .textTheme
-                .headline6!
+                .titleLarge!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
           const SizedBox(
@@ -160,7 +160,10 @@ class _CustomNavBar extends StatelessWidget {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home", ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Home",
+          ),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite_outline), label: "Favorite"),
           BottomNavigationBarItem(

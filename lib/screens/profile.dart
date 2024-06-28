@@ -43,8 +43,7 @@ class Profile extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           image: const DecorationImage(
-                              image: AssetImage(
-                                  'assets/profile/diopalingdepan.jpeg'),
+                              image: AssetImage('assets/profile/Goji.jpg'),
                               fit: BoxFit.cover),
                         ),
                       ),
@@ -58,7 +57,7 @@ class Profile extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: const Text(
-                          "This is Dio Ferdinan, dengan NIM 2111102441127 ",
+                          "This is Ghozi Alghifari, dengan NIM 2111102441186 ",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -91,7 +90,7 @@ class Profile extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           image: const DecorationImage(
-                              image: AssetImage('assets/profile/pina.jpeg'),
+                              image: AssetImage('assets/profile/wahyuni.jpg'),
                               fit: BoxFit.cover),
                         ),
                       ),
@@ -105,7 +104,7 @@ class Profile extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: const Text(
-                          "This is Alvinalia, dengan NIM 2111102441140 ",
+                          "This is Sri Wahyuni Syahrir, dengan NIM 2111102441079 ",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -138,7 +137,7 @@ class Profile extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           image: const DecorationImage(
-                              image: AssetImage('assets/profile/rangga.jpeg'),
+                              image: AssetImage('assets/profile/delvina.jpeg'),
                               fit: BoxFit.cover),
                         ),
                       ),
@@ -152,7 +151,7 @@ class Profile extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: const Text(
-                          "This is Rangga Pranata, dengan NIM 2111102441098 ",
+                          "This is Delvina Sari, dengan NIM 2111102441151 ",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -161,6 +160,53 @@ class Profile extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 20),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: Container(
+                width: 350,
+                height: 200,
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(colors: [
+                    Colors.white,
+                    Colors.deepPurpleAccent.withOpacity(0.5),
+                  ]),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 200,
+                        width: 170,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          image: const DecorationImage(
+                              image: AssetImage('assets/profile/fauzan.jpeg'),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 200,
+                        width: 170,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: const Text(
+                          "This is M Fauzan Ananda, dengan NIM 2211102441156 ",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),
